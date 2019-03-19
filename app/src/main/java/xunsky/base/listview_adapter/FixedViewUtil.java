@@ -1,4 +1,4 @@
-package listview.base.xunsky.listviewadapter;
+package xunsky.base.listview_adapter;
 
 import android.view.View;
 import android.view.ViewGroup;

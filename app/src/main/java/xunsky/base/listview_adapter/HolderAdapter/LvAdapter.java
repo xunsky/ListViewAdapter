@@ -1,4 +1,4 @@
-package listview.base.xunsky.listviewadapter.HolderAdapter;
+package xunsky.base.listview_adapter.HolderAdapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -7,7 +7,7 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import listview.base.xunsky.listviewadapter.LvCommonAdapter;
+import xunsky.base.listview_adapter.LvCommonAdapter;
 
 
 /**

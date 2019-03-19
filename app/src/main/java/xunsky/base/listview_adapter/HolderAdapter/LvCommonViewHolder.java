@@ -1,4 +1,4 @@
-package listview.base.xunsky.listviewadapter.HolderAdapter;
+package xunsky.base.listview_adapter.HolderAdapter;
 
 import android.util.SparseArray;
 import android.view.View;
