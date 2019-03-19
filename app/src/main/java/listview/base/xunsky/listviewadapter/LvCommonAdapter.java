@@ -11,9 +11,9 @@ import java.util.List;
  * Created by junx on 2017/11/13.
  */
 
-public abstract class CommonAdapter<T,H> extends MyBaseAdapter<T> {
+public abstract class LvCommonAdapter<T,H> extends LvBaseAdapter<T> {
 
-    public CommonAdapter(Context context, List<T> datas) {
+    public LvCommonAdapter(Context context, List<T> datas) {
         super(context, datas);
     }
 

@@ -8,11 +8,11 @@ import android.widget.TextView;
  * Created by junx on 2017/11/13.
  */
 
-public class CommonViewHolder {
+public class LvCommonViewHolder {
     private View convertView;
     private SparseArray<View> views;
 
-    public CommonViewHolder(View convertView) {
+    public LvCommonViewHolder(View convertView) {
         this.convertView = convertView;
         views=new SparseArray<>();
     }

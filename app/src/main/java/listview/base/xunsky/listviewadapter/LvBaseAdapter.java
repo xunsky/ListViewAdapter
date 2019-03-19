@@ -13,11 +13,11 @@ import java.util.List;
  * Created by junx on 2017/11/13.
  */
 
-public abstract class MyBaseAdapter<T> extends BaseAdapter {
+public abstract class LvBaseAdapter<T> extends BaseAdapter {
     public Context mContext;
     public List<T> mDatas;
     LayoutInflater mLayoutInflater;
-    public MyBaseAdapter(Context context, List<T> datas) {
+    public LvBaseAdapter(Context context, List<T> datas) {
         mContext = context;
         mDatas = datas;
         mLayoutInflater=LayoutInflater.from(context);

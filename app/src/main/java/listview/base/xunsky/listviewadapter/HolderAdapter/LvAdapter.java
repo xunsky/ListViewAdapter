@@ -7,20 +7,20 @@ import android.view.ViewGroup;
 
 import java.util.List;
 
-import listview.base.xunsky.listviewadapter.CommonAdapter;
+import listview.base.xunsky.listviewadapter.LvCommonAdapter;
 
 
 /**
  * Created by junx on 2017/11/13.
  */
 
-public abstract class HolderAdapter<T> extends CommonAdapter<T,CommonViewHolder> {
+public abstract class LvAdapter<T> extends LvCommonAdapter<T, LvCommonViewHolder> {
     int mLayoutResId;
-    public HolderAdapter(Context context, List<T> datas, int LayoutResId) {
+    public LvAdapter(Context context, List<T> datas, int LayoutResId) {
         this(context, datas);
         this.mLayoutResId=LayoutResId;
     }
-    private HolderAdapter(Context context, List<T> datas) {
+    private LvAdapter(Context context, List<T> datas) {
         super(context, datas);
     }
 
@@ -31,10 +31,10 @@ public abstract class HolderAdapter<T> extends CommonAdapter<T,CommonViewHolder>
     }
 
     @Override
-    public CommonViewHolder createViewHolder(View convertView, T data, int position) {
-        return new CommonViewHolder(convertView);
+    public LvCommonViewHolder createViewHolder(View convertView, T data, int position) {
+        return new LvCommonViewHolder(convertView);
     }
 
     @Override
-    protected abstract void bindDatas(CommonViewHolder holder, T data, int position);
+    protected abstract void bindDatas(LvCommonViewHolder holder, T data, int position);
 }
